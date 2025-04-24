@@ -12,7 +12,7 @@ Rscript chain.r
 ```
 
 # Change assembly
-This will get the chain for lifting from Hg19 to Hg38.
+This will get the chain for lifting from Hg38 to Hg19.
 If you want to make a different liftover, change name in lift.r and chain.r accordingly.
 
 # Requirements

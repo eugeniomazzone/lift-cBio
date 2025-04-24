@@ -12,7 +12,7 @@ df$chr[df$chr==23]="X"
 dfg <- makeGRangesFromDataFrame(df, keep.extra.columns=T, start.field="startPosition", end.field="endPosition")
 
 #Import it
-ch = import.chain("chain/hg19ToHg38.over.chain")
+ch = import.chain("chain/hg38ToHg19.over.chain")
 
 #Add missing infos to data
 seqlevelsStyle(dfg) = "UCSC"
