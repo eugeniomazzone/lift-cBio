@@ -1,8 +1,14 @@
 # Usage
-To perform the liftover for a study do:
+To perform the liftover for study mutations do:
 ```
 Rscript fetch.r <study-id>
 Rscript lift.r <study-id>
+```
+
+To perform the liftover for study structural variant do:
+```
+Rscript fetch-sv.r <study-id>
+Rscript lift-sv.r <study-id>
 ```
 
 # Setup
